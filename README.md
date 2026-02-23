@@ -27,6 +27,4 @@ The application fetches product data from an external API and allows users to ad
 - CSS3
 - REST API Integration
 
----
 
-## 📂 Project Structure

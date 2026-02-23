@@ -1,0 +1,38 @@
+.navv {
+  background-color: darkcyan;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navv nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center;       
+  height: 60px;    
+  background-color:black ;          
+}
+
+.navv nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navv nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.navv nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.navv nav ul li a:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
